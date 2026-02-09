@@ -30,11 +30,11 @@ pip install -e .
 
 ## Data format
 ### 1. Edge CSVs (train / val / test)
-a. Each split CSV must contain the following columns:
-b. starter_ID (source gene/entity ID)
-c. receiver_ID (target gene/entity ID)
-d. subtype_name (string label; may contain multiple labels separated by ",, ")
-e. pathway_source (string pathway/source name)
+- Each split CSV must contain the following columns:
+- starter_ID (source gene/entity ID)
+- receiver_ID (target gene/entity ID)
+- subtype_name (string label; may contain multiple labels separated by ",, ")
+- pathway_source (string pathway/source name)
 
 Notes:
 The pipeline will add an edge_id column automatically.
@@ -43,13 +43,13 @@ The label separator is assumed to be exactly ",, " (comma-comma-space), matching
 ### 2. Embedding CSVs (precomputed)
 
 Each embedding CSV must contain:
-a. entity_ID
-b. embedding (comma-separated float string)
+- entity_ID
+- embedding (comma-separated float string)
 
 You provide three embedding files:
-a. DNA embeddings (default dim = 768)
-b. BioBERT embeddings (default dim = 768)
-c. ESM2 embeddings (default dim = 2560)
+- DNA embeddings (default dim = 768)
+- BioBERT embeddings (default dim = 768)
+- ESM2 embeddings (default dim = 2560)
 
 Missing entities are assigned zero vectors prior to normalization.
 
@@ -77,9 +77,9 @@ python -m gene_rel_gt.cli.evaluate --config configs/default.yaml --checkpoint ou
 ```
 
 Outputs (when --export-fp is enabled):
-a. outputs/false_positives_train.csv
-b. outputs/false_positives_val.csv
-c. outputs/false_positives_test.csv
+- outputs/false_positives_train.csv
+- outputs/false_positives_val.csv
+- outputs/false_positives_test.csv
 Each row corresponds to a single (edge, relation) false positive with an associated probability.
 
 ## Hyperparameter tuning (Optuna)
@@ -87,14 +87,14 @@ Each row corresponds to a single (edge, relation) false positive with an associa
 python -m gene_rel_gt.cli.tune --config configs/optuna.yaml
 ```
 Outputs:
-outputs/optuna_study.db (SQLite; resumable study)
-outputs/best_params.yaml
+- outputs/optuna_study.db (SQLite; resumable study)
+- outputs/best_params.yaml
 
 ## Project structure (high level)
 
-src/gene_rel_gt/ : library code
-src/gene_rel_gt/cli/ : runnable commands (train/evaluate/tune)
-src/gene_rel_gt/models/ : GraphTransformer + classifier
-src/gene_rel_gt/preprocessing/ : CSV → graph → PyG + embeddings
-src/gene_rel_gt/training/ : loss, metrics, loops
-src/gene_rel_gt/inference/ : false positive export utilities
+- src/gene_rel_gt/ : library code
+- src/gene_rel_gt/cli/ : runnable commands (train/evaluate/tune)
+- src/gene_rel_gt/models/ : GraphTransformer + classifier
+- src/gene_rel_gt/preprocessing/ : CSV → graph → PyG + embeddings
+- src/gene_rel_gt/training/ : loss, metrics, loops
+- src/gene_rel_gt/inference/ : false positive export utilities
