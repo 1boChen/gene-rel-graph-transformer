@@ -1,0 +1,21 @@
+starter_ID,receiver_ID,pathway_source,subtype_name
+hsa:5595,hsa:107,path:hsa04210 Apoptosis,no_interaction
+hsa:1435,hsa:4233,path:hsa04014 Ras signaling pathway,activation
+hsa:27231,hsa:64802,path:hsa00760 Nicotinate and nicotinamide metabolism,compound
+hsa:5332,hsa:7046,path:hsa00010 Glycolysis / Gluconeogenesis,no_interaction
+hsa:5136,hsa:124583,path:hsa00230 Purine metabolism,compound
+hsa:338755,hsa:2788,path:hsa04740 Olfactory transduction,activation
+hsa:5335,hsa:9162,path:hsa04070 Phosphatidylinositol signaling system,compound
+hsa:2736,hsa:8325,path:hsa04520 Adherens junction,no_interaction
+hsa:2572,hsa:2328,path:hsa00430 Taurine and hypotaurine metabolism,compound
+hsa:5584,hsa:54566,path:hsa04530 Tight junction,"phosphorylation,, inhibition"
+hsa:3717,hsa:6774,path:hsa05200 Pathways in cancer,"phosphorylation,, activation"
+hsa:100137049,hsa:5579,path:hsa04730 Long-term depression,compound
+hsa:1945,hsa:4914,path:hsa04151 PI3K-Akt signaling pathway,activation
+hsa:659,hsa:5603,path:hsa04550 Signaling pathways regulating pluripotency of stem cells,inhibition
+hsa:2051,hsa:25791,path:hsa04360 Axon guidance,activation
+hsa:27006,hsa:5979,path:hsa04020 Calcium signaling pathway,activation
+hsa:151449,hsa:658,path:hsa04390 Hippo signaling pathway,activation
+hsa:3290,hsa:54600,path:hsa05204 Chemical carcinogenesis - DNA adducts,compound
+hsa:8612,hsa:5337,path:hsa00564 Glycerophospholipid metabolism,compound
+hsa:5580,hsa:8398,path:hsa04666 Fc gamma R-mediated phagocytosis,activation

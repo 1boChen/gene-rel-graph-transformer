@@ -1,0 +1,21 @@
+starter_ID,receiver_ID,pathway_source,subtype_name
+hsa:8528,hsa:2805,"path:hsa00250 Alanine, aspartate and glutamate metabolism",compound
+hsa:5568,hsa:9586,"path:hsa04935 Growth hormone synthesis, secretion and action",activation
+hsa:26279,hsa:3802,path:hsa04015 Rap1 signaling pathway,no_interaction
+hsa:3651,hsa:4825,path:hsa04950 Maturity onset diabetes of the young,expression
+hsa:445,hsa:4842,path:hsa00220 Arginine biosynthesis,compound
+hsa:406894,hsa:5335,path:hsa05206 MicroRNAs in cancer,inhibition
+hsa:5330,hsa:64764,path:hsa00562 Inositol phosphate metabolism,no_interaction
+hsa:5566,hsa:27092,path:hsa04261 Adrenergic signaling in cardiomyocytes,phosphorylation
+hsa:51196,hsa:8867,path:hsa04070 Phosphatidylinositol signaling system,compound
+hsa:91860,hsa:2207,path:hsa00900 Terpenoid backbone biosynthesis,no_interaction
+hsa:1944,hsa:10092,path:hsa05208 Chemical carcinogenesis - reactive oxygen species,no_interaction
+hsa:5518,hsa:5590,path:hsa04530 Tight junction,"dephosphorylation,, inhibition"
+hsa:81327,hsa:3948,path:hsa00450 Selenocompound metabolism,no_interaction
+hsa:5163,hsa:5595,"path:hsa04928 Parathyroid hormone synthesis, secretion and action",no_interaction
+hsa:192111,hsa:10059,path:hsa04668 TNF signaling pathway,dephosphorylation
+hsa:10000,hsa:1027,path:hsa05200 Pathways in cancer,phosphorylation
+hsa:1454,hsa:6608,path:hsa04340 Hedgehog signaling pathway,"activation,, phosphorylation"
+hsa:59345,hsa:22808,path:hsa04371 Apelin signaling pathway,activation
+hsa:5291,hsa:90809,path:hsa04070 Phosphatidylinositol signaling system,compound
+hsa:5295,hsa:9108,path:hsa04070 Phosphatidylinositol signaling system,compound

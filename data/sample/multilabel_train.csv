@@ -1,0 +1,81 @@
+starter_ID,receiver_ID,pathway_source,subtype_name
+hsa:51806,hsa:816,path:hsa04114 Oocyte meiosis,activation
+hsa:408,hsa:26530,path:hsa04740 Olfactory transduction,phosphorylation
+hsa:5600,hsa:2353,path:hsa05132 Salmonella infection,activation
+hsa:5265,hsa:5288,path:hsa04750 Inflammatory mediator regulation of TRP channels,no_interaction
+hsa:3111,hsa:3115,path:hsa04612 Antigen processing and presentation,state change
+hsa:7484,hsa:7855,path:hsa04390 Hippo signaling pathway,activation
+hsa:8074,hsa:54658,path:hsa04623 Cytosolic DNA-sensing pathway,no_interaction
+hsa:284217,hsa:1605,path:hsa05412 Arrhythmogenic right ventricular cardiomyopathy,binding/association
+hsa:2335,hsa:22801,path:hsa04810 Regulation of actin cytoskeleton,activation
+hsa:137075,hsa:9075,path:hsa04530 Tight junction,binding/association
+hsa:81030,hsa:11035,path:hsa04217 Necroptosis,activation
+hsa:157506,hsa:5350,path:hsa04380 Osteoclast differentiation,no_interaction
+hsa:7941,hsa:84647,path:hsa00565 Ether lipid metabolism,compound
+hsa:53632,hsa:84335,path:hsa04152 AMPK signaling pathway,"phosphorylation,, inhibition"
+hsa:4257,hsa:124,path:hsa00982 Drug metabolism - cytochrome P450,compound
+hsa:5167,hsa:7084,path:hsa00240 Pyrimidine metabolism,compound
+hsa:2913,hsa:5332,path:hsa04072 Phospholipase D signaling pathway,activation
+hsa:2902,hsa:775,path:hsa04713 Circadian entrainment,activation
+hsa:4744,hsa:147700,path:hsa05014 Amyotrophic lateral sclerosis,inhibition
+hsa:3101,hsa:130589,path:hsa00010 Glycolysis / Gluconeogenesis,compound
+hsa:5568,hsa:120586,path:hsa04740 Olfactory transduction,"phosphorylation,, inhibition"
+hsa:5567,hsa:387748,path:hsa04740 Olfactory transduction,"phosphorylation,, inhibition"
+hsa:552,hsa:2769,path:hsa04020 Calcium signaling pathway,activation
+hsa:340061,hsa:29110,path:hsa05170 Human immunodeficiency virus 1 infection,activation
+hsa:113457,hsa:7280,path:hsa04145 Phagosome,binding/association
+hsa:5567,hsa:132,path:hsa04810 Regulation of actin cytoskeleton,no_interaction
+hsa:11145,hsa:56994,path:hsa00565 Ether lipid metabolism,compound
+hsa:56953,hsa:5532,path:hsa04810 Regulation of actin cytoskeleton,no_interaction
+hsa:56474,hsa:4735,path:hsa00760 Nicotinate and nicotinamide metabolism,no_interaction
+hsa:79799,hsa:3725,path:hsa04150 mTOR signaling pathway,no_interaction
+hsa:5579,hsa:7222,path:hsa05022 Pathways of neurodegeneration - multiple diseases,inhibition
+hsa:5568,hsa:138799,path:hsa04740 Olfactory transduction,"phosphorylation,, inhibition"
+hsa:8936,hsa:6776,path:hsa00592 alpha-Linolenic acid metabolism,no_interaction
+hsa:23365,hsa:8871,path:hsa04360 Axon guidance,no_interaction
+hsa:1432,hsa:3725,path:hsa04926 Relaxin signaling pathway,"phosphorylation,, activation"
+hsa:90,hsa:5595,path:hsa04550 Signaling pathways regulating pluripotency of stem cells,inhibition
+hsa:810,hsa:8536,path:hsa04925 Aldosterone synthesis and secretion,activation
+hsa:64419,hsa:5289,path:hsa04070 Phosphatidylinositol signaling system,compound
+hsa:6654,hsa:3845,path:hsa04912 GnRH signaling pathway,activation
+hsa:2771,hsa:114,path:hsa04540 Gap junction,inhibition
+hsa:2940,hsa:126,path:hsa00982 Drug metabolism - cytochrome P450,compound
+hsa:2791,hsa:196883,path:hsa04713 Circadian entrainment,activation
+hsa:91862,hsa:816,path:hsa00770 Pantothenate and CoA biosynthesis,no_interaction
+hsa:5581,hsa:369,path:hsa04270 Vascular smooth muscle contraction,activation
+hsa:2790,hsa:5296,path:hsa04926 Relaxin signaling pathway,activation
+hsa:5290,hsa:55529,path:hsa04070 Phosphatidylinositol signaling system,compound
+hsa:80168,hsa:8513,path:hsa00561 Glycerolipid metabolism,compound
+hsa:5287,hsa:55361,path:hsa00562 Inositol phosphate metabolism,compound
+hsa:6772,hsa:199777,path:hsa05168 Herpes simplex virus 1 infection,expression
+hsa:7484,hsa:353376,path:hsa00513 Various types of N-glycan biosynthesis,no_interaction
+hsa:2735,hsa:781,path:hsa00053 Ascorbate and aldarate metabolism,no_interaction
+hsa:113675,hsa:63826,"path:hsa00260 Glycine, serine and threonine metabolism",compound
+hsa:1366,hsa:23562,path:hsa04670 Leukocyte transendothelial migration,binding/association
+hsa:2527,hsa:8702,path:hsa00601 Glycosphingolipid biosynthesis - lacto and neolacto series,compound
+hsa:5155,hsa:3643,path:hsa04072 Phospholipase D signaling pathway,activation
+hsa:8061,hsa:4314,path:hsa04657 IL-17 signaling pathway,expression
+hsa:6715,hsa:8630,path:hsa00140 Steroid hormone biosynthesis,compound
+hsa:9965,hsa:3643,path:hsa04015 Rap1 signaling pathway,activation
+hsa:127074,hsa:3447,path:hsa00450 Selenocompound metabolism,no_interaction
+hsa:471,hsa:957,path:hsa00230 Purine metabolism,compound
+hsa:5071,hsa:1027,path:hsa04210 Apoptosis,no_interaction
+hsa:4882,hsa:654364,path:hsa00230 Purine metabolism,compound
+hsa:5568,hsa:390061,path:hsa04740 Olfactory transduction,inhibition
+hsa:5565,hsa:5106,path:hsa04920 Adipocytokine signaling pathway,inhibition
+hsa:79603,hsa:8560,path:hsa00600 Sphingolipid metabolism,compound
+hsa:1814,hsa:51764,path:hsa04728 Dopaminergic synapse,activation
+hsa:130576,hsa:1141,path:hsa04080 Neuroactive ligand-receptor interaction,activation
+hsa:5568,hsa:1543,path:hsa00790 Folate biosynthesis,no_interaction
+hsa:4035,hsa:51454,path:hsa04148 Efferocytosis,binding/association
+hsa:8887,hsa:7314,path:hsa04140 Autophagy - animal,binding/association
+hsa:374,hsa:4233,path:hsa04010 MAPK signaling pathway,activation
+hsa:29968,hsa:5723,"path:hsa00260 Glycine, serine and threonine metabolism",compound
+hsa:5175,hsa:5291,path:hsa05418 Fluid shear stress and atherosclerosis,activation
+hsa:7357,hsa:9331,path:hsa00600 Sphingolipid metabolism,compound
+hsa:1399,hsa:1793,path:hsa05100 Bacterial invasion of epithelial cells,activation
+hsa:3845,hsa:11186,path:hsa05223 Non-small cell lung cancer,activation
+hsa:3593,hsa:3559,path:hsa05200 Pathways in cancer,activation
+hsa:2268,hsa:5058,path:hsa05330 Allograft rejection,no_interaction
+hsa:9945,hsa:3098,path:hsa00520 Amino sugar and nucleotide sugar metabolism,compound
+hsa:23533,hsa:4893,path:hsa04725 Cholinergic synapse,activation

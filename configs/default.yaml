@@ -1,0 +1,40 @@
+seed: 42
+device: auto
+
+data:
+  train_csv: data/sample/multilabel_train.csv
+  val_csv: data/sample/multilabel_val.csv
+  test_csv: data/sample/multilabel_test.csv
+
+embeddings:
+  dna_csv: data/sample/gene_embeddings.csv
+  biobert_csv: data/sample/gene_biobert_embeddings.csv
+  esm2_csv: data/sample/esm2_embeddings.csv
+  dna_dim: 768
+  biobert_dim: 768
+  esm2_dim: 2560
+
+model:
+  node_embedding_dim: 128
+  num_heads: 5
+  projected_dim_1: 64
+  projected_dim_2: 256
+  projected_dim_3: 16
+  pathway_embedding_dim: 128
+  dropout: 0.2480908508818471
+  embedding_dim: 768 
+
+clf:
+  hidden_dim: 512
+  num_layers: 2
+
+train:
+  lr: 0.0004651831416437624
+  max_epochs: 250
+  patience: 20
+  threshold: 0.5
+  batch_size: 1
+  log_every: 50
+
+outputs:
+  dir: outputs
