@@ -1,0 +1,27 @@
+seed: 42
+device: auto
+
+data:
+  train_csv: ../../data/GNN/multilabel_train.csv
+  val_csv: ../../data/GNN/multilabel_val.csv
+  test_csv: ../../data/GNN/multilabel_test.csv
+
+embeddings:
+  dna_csv: ../../data/GNN/gene_embeddings.csv
+  biobert_csv: ../../data/GNN/gene_biobert_embeddings.csv
+  esm2_csv: ../../data/GNN/esm2_embeddings.csv
+  dna_dim: 768
+  biobert_dim: 768
+  esm2_dim: 2560
+
+optuna:
+  n_trials: 50
+  timeout_sec: null
+  max_epochs: 80
+  patience: 10
+  threshold: 0.5
+
+outputs:
+  dir: outputs
+  study_db: outputs/optuna_study.db
+  best_params_yaml: outputs/best_params.yaml

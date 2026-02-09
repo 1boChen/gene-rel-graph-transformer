@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Gene Relation Graph Transformer"
+message: "If you use this software, please cite it."
+type: software
+authors:
+  - family-names: Chen
+    given-names: Yibo
+version: 0.1.0
+date-released: 2026-02-09
+license: MIT
